@@ -1,0 +1,299 @@
+html,body
+{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    z-index: 1;
+   background-color: khaki;
+    
+}
+#background
+{
+position: absolute;
+height: 100%;
+width: 100%;
+z-index: 0;
+}
+#welcomeline{
+    position: relative;
+    width: 100%;
+    
+
+}
+
+
+/* hello CSS */
+#hello
+{
+    position: relative;
+    left: 100px;
+    top: 250px;
+    width: 600px;
+background-color: lightskyblue;
+ border: 5px solid rgb(90, 90, 245);
+ font-size: 20px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    padding: 20px;
+}
+.helloline-1{
+    position: absolute;
+    left: 100px;
+    top: 00px;
+}
+.welcomeH{
+    background-color: lightskyblue;
+}
+#welcome
+{
+position: relative;
+   text-align: center;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+    
+}
+.welcomeP{
+    font-size:25px;
+}   
+.p-1{
+    position: absolute;
+    background-color:lightskyblue ;
+    border: solid 5px rgb(90, 90, 245);
+    width: 450px;
+    height: 200px;
+    left: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    font-weight: 900;
+text-align: center;
+
+}
+
+#name1{
+position: absolute;
+left: 100px;
+top: 50px;
+color: black;
+background-color: khaki;
+height: 50px;
+}
+#name2{
+position: absolute;
+left: 300px;
+top: 50px;
+color: black;
+background-color: khaki;
+height: 50px;
+}
+.welcomeImg{
+position: absolute;
+left: 70%;
+width: 400px;
+height: 400px;
+}
+#submitButton{
+position: absolute;
+height: 100px;
+width: 100px;
+left: 500px;
+top: 10px;
+color: black;
+background-color: khaki;
+}
+#submitButton:hover{
+    background-color: rgb(90, 90, 245);
+    color: whitesmoke;
+}
+
+#startButton{
+    position: absolute;
+    left: 1100px;
+    top: 500px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     color: black;   
+    width: 150px;
+    height: 100px;
+    font-weight: 900;
+    background-color: lightskyblue;
+    border: solid 5px rgb(90, 90, 245);
+}
+#startButton:hover{
+    background-color: rgb(90, 90, 245);
+    color: whitesmoke;
+}
+/* end of hello CSS */
+#firstLevel
+{
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    left: 200px;
+    /* visibility: hidden; */
+}
+/* tic tac toe game CSS */
+#cong
+{
+    top: -50px;
+    position: relative;
+    left: 100px;
+}
+#continue
+{
+    top: 500px;
+    position: absolute;
+    left: 475px;
+}
+#continue:hover{
+    color: whitesmoke;
+    background-color: darkblue;
+}
+#ticTacToeGame
+{
+    width: 300px;
+    position: relative;
+    top: 100px;
+    left: 550px;
+}
+td
+{
+    width: 100px;
+    height: 100px;
+    font-size: 100px;
+    text-align: center;
+    line-height: 0px;
+}
+td:hover
+{
+    background-color: lightskyblue;
+}
+#quPresent
+{
+    font-size: 30px;
+    position: relative;
+    top: -60px;
+    left: 650px;
+}
+#titleQu
+{
+    font-size: 30px;
+    position: relative;
+    top: -60px;
+    left: 650px;
+}
+.gameOver
+{
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    top: -100px;
+    background-color: lightskyblue;
+    border: solid 3px darkblue;
+}
+#continue{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 350px;
+    left: 23%;
+    background-color: lightskyblue;
+
+}
+.returnBut{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 350px;
+    left: 63%;
+    background-color: lightskyblue;
+
+}
+.returnBut:hover{
+    background-color: darkblue;
+    color: white;
+}
+.smiley1{
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+#table
+{
+    position: relative;
+    top: 100px;
+    left: 600px;
+}
+#instructions
+{
+    position: relative;
+    top: -150px;
+    left: 100px;
+    width: 419px;
+    height: 150px;
+}
+/* end of tic tac toe CSS */
+/* researching CSS */
+#video
+{
+    position: relative;
+    top: 20px;
+    left: 40%;
+    width: 300px;
+    background-color: antiquewhite;
+    border: solid 3px aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#body
+{
+    overflow: hidden;
+}
+#article
+{
+    width: 250px;
+    position: relative;
+    left: 40%;
+    top: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: antiquewhite;
+    border: solid 3px aliceblue;
+}
+#questions
+{
+    position: relative;
+    width: 600px;
+    height: 150px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: solid 3px cornflowerblue;
+    background-color: antiquewhite;
+     left: 35%;   
+    top: -400px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+#endSite{
+    position: relative;
+    left: 36%;
+    background-color: antiquewhite;
+    border: 3px solid aliceblue;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 600px;
+    height: 250px;
+    top: -350px;
+}
+#quFormBut{
+    background-color: lightskyblue; 
+    left: 100px;
+    font-size: 25px;
+    width: 300px;
+    height: 100px;
+}
+#quFormBut:hover{
+    background-color: darkblue;
+    color: white;
+}
