@@ -51,26 +51,6 @@ continueB.addEventListener('click' , function()
     researching.hidden = false;
 } , false);
 
-returnBut.addEventListener('click', function(){
- qArr = ['q1','q2','q3','q4','q5','q6','q7','q8','q9','q10'];
- qWas = [];
-    pressesArr = [0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0]; 
-    turn = 0;
-    table.hidden = false;
-    quPresent.hidden = true;
-    congO.hidden = true;
-    congX.hidden = true;
-    titleQu.hidden = false;
-    gameOver.hidden = true;
-    instructions.hidden = false;
-    continueB.hidden = true;
-    returnBut.hidden = true;
-     for (let i = 0 ;i<3;i++){
-     firstVal[i].innerText= ' ';
-     secondVal[i].innerText= ' ';
-     thirdVal[i].innerText= ' '; 
-}
-},false)
 
 let qArr = ['q1','q2','q3','q4','q5','q6','q7','q8','q9','q10'];
 let qWas = [];
