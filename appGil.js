@@ -18,7 +18,7 @@ const instructions = document.getElementById('instructions');
 const firstP = document.getElementById('firstP');
 const returnBut = document.getElementById('return');
 const endSite =document.getElementById("endSite");
-
+const smiley = document.getElementById("smiley1");
 submitButton.addEventListener('click' , function()
 {
     if(name1.value != '' && name2.value != '') 
@@ -332,3 +332,4 @@ SportsVideo.addEventListener('click' , function()
 questions.onclick = function(){
 endSite.hidden =false;
 }
+
