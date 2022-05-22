@@ -1,0 +1,792 @@
+<head>
+    <title>learning with new freinds - Sports </title>
+    <link rel="stylesheet" href="styleGil.css">
+    <style>
+        html,body
+{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    z-index: 1;
+   background: url("background.jpg");
+   
+
+    
+}
+#background
+{
+position: absolute;
+height: 100%;
+width: 100%;
+z-index: 0;
+}
+#welcomeline{
+    position: relative;
+    width: 100%;
+    
+
+}
+
+
+/* hello CSS */
+#hello
+{
+    position: relative;
+    left: 100px;
+    top: 250px;
+    width: 600px;
+    color: black;
+background-color: rgb(35, 169, 214);
+ border: 5px solid darkblue;
+ color: darkblue;
+ font-size: 20px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    padding: 20px;
+}
+.helloline-1{
+    position: absolute;
+    left: 100px;
+    top: 00px;
+}
+.welcomeH{
+    background-color: rgb(35, 169, 214);
+    color: darkblue;
+}
+#welcome
+{
+position: relative;
+   text-align: center;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+    
+}
+.welcomeP{
+    font-size:25px;
+}   
+.p-1{
+    position: absolute;
+    color: black;
+    background-color: rgb(35, 169, 214);
+    border: solid 5px darkblue;
+    color: darkblue;
+    width: 450px;
+    height: 200px;
+    left: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    font-weight: 900;
+text-align: center;
+
+}
+
+#name1{
+position: absolute;
+left: 100px;
+top: 50px;
+color:  black;
+background-color: rgb(191, 221, 231);
+height: 50px;
+}
+#name2{
+position: absolute;
+left: 300px;
+top: 50px;
+color: black;
+background-color: rgb(191, 221, 231);;
+height: 50px;
+}
+.welcomeImg{
+position: absolute;
+left: 70%;
+width: 400px;
+height: 400px;
+}
+#submitButton{
+position: absolute;
+height: 100px;
+width: 100px;
+left: 500px;
+top: 10px;
+color: darkblue;
+background-color: lightblue;;
+}
+#submitButton:hover{
+    background-color: darkblue;
+    color: whitesmoke;
+}
+
+#startButton{
+    position: absolute;
+    left: 1100px;
+    top: 500px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     color: black;   
+    width: 150px;
+    height: 100px;
+    font-weight: 900;
+    color: darkblue;
+    background-color: rgb(35, 169, 214);
+    border: solid 5px darkblue;
+}
+#startButton:hover{
+    background-color: lightblue;
+    color:darkblue;
+}
+/* end of hello CSS */
+#firstLevel
+{
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    left: 200px;
+   
+
+    /* visibility: hidden; */
+}
+/* tic tac toe game CSS */
+#cong
+{
+    top: -50px;
+    position: relative;
+    left: 100px;
+}
+#continue
+{
+    top: 500px;
+    position: absolute;
+    left: 475px;
+}
+#continue:hover{
+    color: whitesmoke;
+    background-color: darkblue;
+}
+#ticTacToeGame
+{
+    width: 300px;
+    position: relative;
+    top: 100px;
+    left: 550px;
+    
+}
+table{
+    border: solid 3px lightseagreen;
+}
+td
+{
+    width: 100px;
+    height: 100px;
+    font-size: 100px;
+    text-align: center;
+    line-height: 0px;
+    background-color: rgb(35, 169, 214);
+    color: darkblue;
+    border: solid 3px darkblue;
+}
+td:hover
+{
+    background-color: lightskyblue;
+}
+#quPresent
+{
+    font-size: 30px;
+    position: relative;
+    top: -220px;
+    left: 650px;
+}
+#titleQu
+{
+    font-size: 30px;
+    position: absolute;
+    top: 90%;
+    left: 60%;
+    width: 300px;
+    height: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(35, 169, 214);
+    border: solid 3px darkblue;
+}
+.gameOver
+{
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    top: -100px;
+    background-color: rgb(35, 169, 214);
+    border: solid 3px darkblue;
+    color: darkblue;
+}
+#continue{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 350px;
+    left: 23%;
+    background-color: rgb(35, 169, 214);
+color: darkblue;
+}
+.returnBut{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 350px;
+    left: 63%;
+    background-color: rgb(35, 169, 214);
+color: darkblue;
+}
+.returnBut:hover{
+    background-color: darkblue;
+    color: whitesmoke;
+}
+#table
+{
+    position: relative;
+    top: 100px;
+    left: 600px;
+}
+#instructions
+{
+    position: relative;
+    top: -200px;
+    left: 100px;
+    width: 419px;
+    height: 300px;
+    background-color: rgb(35, 169, 214);
+    color: darkblue;
+    border: solid 3px darkblue;
+    
+}
+/* end of tic tac toe CSS */
+/* researching CSS */
+#video
+{
+    position: relative;
+    top: 20px;
+    left: 40%;
+    width: 300px;
+    background-color: rgb(35, 169, 214);
+    border: solid 3px darkblue;
+    color: darkblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#body
+{
+    overflow: hidden;
+}
+#article
+{
+    width: 250px;
+    position: relative;
+    left: 40%;
+    top: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(35, 169, 214);
+    border: solid 3px darkblue;
+    color: darkblue;
+}
+#questions
+{
+    position: absolute;
+    width: 600px;
+    height: 150px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: solid 3px darkblue;
+    background-color: rgb(35, 169, 214);
+     left: 35%;   
+    top: 100px;
+    margin: 10px;
+    padding: 10px;
+    color: darkblue ;
+}
+#endSite{
+    position: absolute;
+    left: 36%;
+    background-color: rgb(35, 169, 214);
+    border: 3px solid darkblue;
+    color: darkblue;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 600px;
+    height: 250px;
+    top: 350px;
+}
+#quFormBut{
+    background-color: lightskyblue; 
+    color: darkblue;
+    left: 100px;
+    font-size: 25px;
+    width: 300px;
+    height: 100px;
+}
+#quFormBut:hover{
+    background-color: darkblue;
+    color: white;
+}
+    </style>
+</head>
+<body id="body">
+<div class="welcomeH">    
+<h1 id="welcome">Study a friend!!!</h1>
+    <hr id="welcomeline"></hr>
+</div>
+    
+<img id="welcomeImg" class="welcomeImg" src="https://st4.depositphotos.com/5383684/27560/v/1600/depositphotos_275601558-stock-illustration-children-and-friend-using-laptop.jpg">
+        <div class="p-1" id="firstP">
+        <p class="welcomeP">Hello and Welcome to our site !!<br>
+        In this site you will play and learn about the subject-Sport.<br>
+    but first of all before we begin please insert both of the players names. 
+</p>     </div>
+<div id="hello">
+        <p class="helloline-1">please insert your names:</p>
+        <br><br>
+        <input id="name1" placeholder="insert the first name">
+        <input id="name2" placeholder="insert the second name">
+        <button id="submitButton">submit</button>
+        <br><br>
+        <div id="helloOutput" hidden>
+            Hello
+            <span id="name1Output"></span>
+            and
+            <span id="name2Output"></span>
+            Welcome to our site about Sports.
+            <br>Now you will learnand play together and will know each other well.
+            <br>Good luck!
+            <br>Press start to play.
+        </div>
+        <br>
+    
+    </div>
+    <button id="startButton" class="btn btn-primary" hidden>start</button>
+
+    <!-- tic tac toe game -->
+    <div id="firstLevel" hidden>
+        <table id="table" rules="all">
+            <tr>
+                <td id="qBut1"></td>
+                <td id="qBut2"></td>
+                <td id="qBut3"></td>
+            </tr>
+            <tr>
+                <td id="qBut4"></td>
+                <td id="qBut5"></td>
+                <td id="qBut6"></td>
+            </tr>
+            <tr>
+                <td id="qBut7"></td>
+                <td id="qBut8"></td>
+                <td id="qBut9"></td>
+            </tr>
+        </table>
+        <div id="instructions">
+            in this step you will get to know each other by playing tic tac toe.
+            <br>
+            <ul>
+                <b>the rules:</b>
+                <li>each player choose a square to put his sign in it (X or O).</li>
+                <li>the X always begins.</li>
+                <li>there are three ways to win the game:</li>
+                <li>the first to put his / her sign along the whole row wins.</li>
+                <li>the first to put his / her sign along the whole column wins.</li>
+                <li>the first to put his / her sign along the whole diagonal wins.</li>
+                <li>if no one won and theboard is full then it is a tie.</li>
+            </ul>
+        </div>
+        <button id="continue" hidden>Continue to research</button>
+        <a href="http://localhost:3000"><button id="return" class="returnBut" hidden>Play again!</button></a>
+        <br><br><br><br><br>
+        <div id="titleQu">the question:</div>
+        <br>
+        <div id="quPresent"></div>
+        <h2 id="gameOver" class="gameOver" hidden>game over</h2>
+        <h2 id="congX" class="gameOver" hidden>
+         has won!
+        </h2>
+        <h2 id="congO" class="gameOver" hidden>
+         has won!
+        </h2>
+        <h2 id="tie" class="gameOver" hidden>
+        no one has won, it is a tie.
+        </h2>
+        <br><br>
+    </div> 
+    <!-- end of tic tac toe game -->
+    <!-- start of researching -->
+    <div id="researching" hidden>
+        <div id="video">
+            here is a short video about Sports facts.
+            <br>
+            watch the video below ↓↓↓ and after that roll down
+            <br><br>
+            <a  href="https://www.youtube.com/watch?v=DzNiaOxEWnA" target="_blank">
+                <img id="SportsVideo" src="https://previews.123rf.com/images/incomible/incomible1405/incomible140500027/28297754-sports-background-with-soccer-football-flat-icons-.jpg" alt="video" height="300px" width="300px" title="learn from a video">
+            </a>
+        </div> 
+        
+        <div id="article" hidden>
+            here is a short article to read about Sports-facts .<br>
+             to read the article you need to press the image below ↓↓↓ after reading the article roll down
+            <br>
+            <a  href="https://apsportseditors.org/others/sports-facts/" target="_blank">
+                <img id="SportsArticle" src="https://cdn11.bigcommerce.com/s-jdhnct1/images/stencil/original/products/227/740/splash_background_collection__12939.1446754374.jpg?c=2" height="250px" width="250px" title="article">
+
+            </a>
+        </div>
+       
+        <br><br><br><br>
+        <div id="questions" hidden>
+            click the button below to answer the questions about Sports ↓↓↓
+            <br><br>
+            <a id="quForm" href="https://docs.google.com/forms/d/e/1FAIpQLSd5kQLRie3Aex3UeC4M-p3iKn2zPSTbS44CBlRS_By64DCnRA/viewform?usp=sf_link" target="_blank">
+                <button id="quFormBut"  >To Questions</button>
+            </a>
+            <br><br><br><br><br><br><br><br>
+        </div>
+        <div id="endSite" hidden><p>Congratulations! You have finished the game.<br>
+        In order to play again reload the website:)</p></div>
+        <br><br><br><br><br>
+    </div>
+    <script src="appGil.js"></script>
+    <script>
+        const hello = document.getElementById('hello');
+const helloOutput = document.getElementById('helloOutput');
+const name1 = document.getElementById('name1');
+const name2 = document.getElementById('name2');
+const name1Output = document.getElementById('name1Output');
+const name2Output = document.getElementById('name2Output');
+const submitButton = document.getElementById('submitButton');
+const startButton = document.getElementById('startButton');
+const firstLevel = document.getElementById('firstLevel');
+const researching = document.getElementById('researching');
+const continueB = document.getElementById('continue');
+const video = document.getElementById('video');
+const SportsVideo = document.getElementById('SportsVideo');
+const article = document.getElementById('article');
+const SportsArticle = document.getElementById('SportsArticle');
+const questions = document.getElementById('questions');
+const instructions = document.getElementById('instructions');
+const firstP = document.getElementById('firstP');
+const returnBut = document.getElementById('return');
+const endSite =document.getElementById("endSite");
+const smiley = document.getElementById("smiley1");
+submitButton.addEventListener('click' , function()
+{
+    if(name1.value != '' && name2.value != '') 
+    {
+        name1Output.innerText = name1.value;
+        name2Output.innerText = name2.value;
+        helloOutput.hidden = false;
+        startButton.hidden = false;
+    }
+    else
+    {
+        alert('one or more input fields are empty. insert your names');
+    }
+} , false);
+
+startButton.addEventListener('click' , function()
+{
+    startButton.hidden=true;
+    hello.hidden = true;
+    firstP.hidden = true;
+    firstLevel.hidden = false;
+    welcomeImg.hidden =true;
+} , false);
+//////////////////////////////////////////////////////////////////////
+//tic tac toe game programming
+
+continueB.addEventListener('click' , function()
+{
+    firstLevel.hidden = true;
+    researching.hidden = false;
+} , false);
+
+
+let qArr = ['q1','q2','q3','q4','q5','q6','q7','q8','q9','q10'];
+let qWas = [];
+
+let pressesArr = [0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0];
+let turn = 0;
+
+let qBut1 = document.getElementById('qBut1');
+let qBut2 = document.getElementById('qBut2');
+let qBut3 = document.getElementById('qBut3');
+let qBut4 = document.getElementById('qBut4');
+let qBut5 = document.getElementById('qBut5');
+let qBut6 = document.getElementById('qBut6');
+let qBut7 = document.getElementById('qBut7');
+let qBut8 = document.getElementById('qBut8');
+let qBut9 = document.getElementById('qBut9');
+const table = document.getElementById('table');
+const congX = document.getElementById('congX');
+const congO = document.getElementById('congO');
+const tie = document.getElementById('tie');
+const quPresent = document.getElementById('quPresent');
+const titleQu = document.getElementById('titleQu');
+const gameOver = document.getElementById('gameOver');
+const welcomeImg = document.getElementById('welcomeImg')
+let qButArr = [qBut1 , qBut2 , qBut3 , qBut4 , qBut5 , qBut6 , qBut7 , qBut8 , qBut9]
+let board = [[qBut1.innerText , qBut2.innerText , qBut3.innerText]
+ , [qBut4.innerText , qBut5.innerText , qBut6.innerText]
+ , [qBut7.innerText , qBut8.innerText , qBut9.innerText]];
+
+function gamePlay(qBut , presses)
+{
+    turn++;
+    presses++;
+   if(presses == 1)
+   {
+       checkTurn(qBut);
+   }
+    qNum      = Math.floor(Math.random() * 10);
+    
+    while(!checkWas(qNum , qWas))
+    {
+        qNum = Math.floor(Math.random() * 10);
+    }
+    qWas[turn] = qNum;
+    quPresent.innerText = qArr[qNum];
+    return presses;
+}
+function checkWas(randomNum , array)
+{
+    for(let i = 0 ; i < array.length ; i++)
+    {
+        if(array[i] == randomNum)
+        {
+            return false;
+        }
+    }
+    return true;
+}
+
+function checkTurn(qBut)
+{
+    if(turn % 2 == 0)
+    {
+        qBut.innerText = 'O';
+    }
+    else
+    {
+        qBut.innerText = 'X';
+    }
+}
+
+function updateBoard()
+{
+    board = [[qBut1.innerText , qBut2.innerText , qBut3.innerText]
+ , [qBut4.innerText , qBut5.innerText , qBut6.innerText]
+ , [qBut7.innerText , qBut8.innerText , qBut9.innerText]];
+}
+//
+function checkRows()
+{
+    let j = 0;
+    for(let i = 0 ; i < 3 ; i++)
+    {
+        if(board[i][j] == board[i][j + 1] && board[i][j + 1] == board[i][j + 2] && (board[i][j] == 'X' || board[i][j] == 'O'))
+        {
+            return true;
+        }
+    }
+    return false;    
+}
+//
+function checkCols()
+{
+    let i = 0;
+    for(let j = 0 ; j < 3 ; j++)
+    {
+        if(board[i][j] == board[i + 1][j] && board[i + 1][j] == board[i + 2][j] && (board[i][j] == 'X' || board[i][j] == 'O'))
+        {
+            return true;
+        }
+    }
+    return false;
+}
+//checks diags if x or o won in diags.
+function checkDiags()
+{
+    let firstVal = board[0][2];
+    let secondVal = board[1][1];
+    let thirdVal = board[2][0];
+    let isFirstDiag = false;
+    if(firstVal == secondVal && firstVal == thirdVal && (firstVal == 'X' || firstVal == 'O'))
+    {
+        isFirstDiag = true;
+    }
+    else
+    {
+        isFirstDiag = false;
+    }
+    firstVal = board[0][0];
+    secondVal = board[1][1];
+    thirdVal = board[2][2];
+    let isSecondDiag = false;
+    if(firstVal == secondVal && firstVal == thirdVal && (firstVal == 'X' || firstVal == 'O'))
+    {
+        isSecondDiag = true;
+    }
+    else
+    {
+        isSecondDiag = false;
+    }
+
+    if(isFirstDiag == false && isSecondDiag == false)
+    {
+        return false;
+    }
+    return true;
+}
+
+function isOver()
+{
+    updateBoard();
+    if(checkRows() == true || checkCols() == true || checkDiags() == true || turn >= 9)
+    {
+        setTimeout(function()
+        {
+            table.hidden = true;
+            quPresent.hidden = true;
+            titleQu.hidden = true;
+            gameOver.hidden = false;
+            instructions.hidden = true;
+            continueB.hidden = false;
+            returnBut.hidden = false;
+            
+            hwoWon();
+        } , 200);
+    }
+}
+
+function hwoWon()
+{
+    if(turn >= 9 && checkRows() == false && checkCols() == false && checkDiags() == false)
+    {
+        tie.hidden = false;
+    }
+    else if(checkCols() == true || checkDiags() == true || checkRows() == true)
+    {
+        if(turn % 2 == 0)
+        {
+            congO.innerText = name1.value+ " " + "has won!!";
+            congO.hidden = false;
+        }
+        else
+        {
+            congX.innerText = name2.value + " " + "has won!!";
+            congX.hidden = false;
+        }
+    }
+}
+
+//main:
+qBut1.addEventListener('click' , function()
+{
+    if(pressesArr[0] < 1)
+    {
+        pressesArr[0] = gamePlay(qBut1 , pressesArr[0]);
+        isOver();
+    }
+} , false);
+qBut2.addEventListener('click' , function()
+{
+    if(pressesArr[1] < 1)
+    {
+        pressesArr[1] = gamePlay(qBut2 , pressesArr[1]);
+        isOver();
+    }
+} , false);
+qBut3.addEventListener('click' , function()
+{
+    if(pressesArr[2] < 1)
+    {
+        pressesArr[2] = gamePlay(qBut3 , pressesArr[2]);
+        isOver();
+    }
+} , false);
+qBut4.addEventListener('click' , function()
+{
+    if(pressesArr[3] < 1)
+    {
+        pressesArr[3] = gamePlay(qBut4 , pressesArr[3]);
+        isOver();
+    }
+} , false);
+qBut5.addEventListener('click' , function()
+{
+    if(pressesArr[4] < 1)
+    {
+        pressesArr[4] = gamePlay(qBut5 , pressesArr[4]);
+        isOver();
+    }
+} , false);
+qBut6.addEventListener('click' , function()
+{
+    if(pressesArr[5] < 1)
+    {
+        pressesArr[5] = gamePlay(qBut6 , pressesArr[5]);
+        isOver();
+    }
+} , false);
+qBut7.addEventListener('click' , function()
+{
+    if(pressesArr[6] < 1)
+    {
+        pressesArr[6] = gamePlay(qBut7 , pressesArr[6]);
+        isOver();
+    }
+} , false);
+qBut8.addEventListener('click' , function()
+{
+    if(pressesArr[7] < 1)
+    {
+        pressesArr[7] = gamePlay(qBut8 , pressesArr[7]);
+        isOver();
+    }
+} , false);
+qBut9.addEventListener('click' , function()
+{
+    if(pressesArr[8] < 1)
+    {
+        pressesArr[8] = gamePlay(qBut9 , pressesArr[8]);
+        isOver();
+    }
+} , false);
+//end of tic tac toe programming
+///////////////////////////////////////////////////////////////////
+SportsArticle.addEventListener('click' , function()
+{
+    // setTimeout(function()
+    // {
+    //     video.hidden = false;
+    // } , 120000)
+    questions.hidden = false;
+    SportsArticle.style.width = "50px";
+    SportsArticle.style.height = "50px";
+    article.style.left = "20px";
+} , false);
+
+SportsVideo.addEventListener('click' , function()
+{
+    // setTimeout(function()
+    // {
+    //     questions.hidden = false;
+    // } , 220000);
+    SportsVideo.style.width = "100px" ; 
+     SportsVideo.style.height = "100px" ;
+     video.style.left = "20px";
+    article.hidden= false;
+} , false);
+
+questions.onclick = function(){
+endSite.hidden =false;
+}
+
+
+    </script>
+</body>
