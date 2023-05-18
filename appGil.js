@@ -20,7 +20,7 @@ const returnBut = document.getElementById('return');
 const endSite =document.getElementById("endSite");
 const smiley = document.getElementById("smiley1");
 submitButton.addEventListener('click' , function()
-{      giugiug
+{      
     if(name1.value != '' && name2.value != '') 
     {
         name1Output.innerText = name1.value;
